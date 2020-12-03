@@ -2436,6 +2436,26 @@ input, select, textarea {
 				font-size: 1.25em;
 			}
 
+
+      ul.devicons {
+        cursor: default;
+        list-style: none;
+        padding-left: 0;
+      }
+
+        ul.devicons li {
+          display: inline-block;
+          padding: 0 1.5em 0 0;
+        }
+
+          ul.devicons li:last-child {
+            padding-right: 0 !important;
+          }
+
+          ul.devicons li .devicon:before {
+            font-size: 2.5em;
+          }
+
 /* Table */
 
 	.table-wrapper {
